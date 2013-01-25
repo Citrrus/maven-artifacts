@@ -1,0 +1,99 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+    <groupId>com.jondwillis</groupId>
+    <artifactId>roboguice-holoeverywhere</artifactId>
+    <version>1.0</version>
+    <packaging>apklib</packaging>
+    <name>RoboGuice-HoloEverywhere</name>
+    <description>
+        RoboGuice classes extending HoloEverywhere classes
+    </description>
+    <url>https://github.com/jondwillis/roboguice-holoeverywhere</url>
+    <issueManagement>
+        <url>https://github.com/jondwillis/roboguice-holoeverywhere/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+    <licenses>
+        <license>
+            <name>Apache V2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/jondwillis/roboguice-holoeverywhere</url>
+        <connection>scm:git:git://github.com/jondwillis/roboguice-holoeverywhere.git</connection>
+        <developerConnection>scm:git:git@github.com:jondwillis/roboguice-holoeverywhere.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <email>jondwillis@gmail.com</email>
+            <name>Jon Willis</name>
+            <url>https://github.com/jondwillis</url>
+            <id>jondwillis</id>
+        </developer>
+        <developer>
+            <email>roberto.tyley@gmail.com</email>
+            <name>Roberto Tyley</name>
+            <url>https://github.com/rtyley</url>
+            <id>rtyley</id>
+        </developer>
+    </developers>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.6</java.version>
+        <android.version>4.1.1.4</android.version>
+        <android.platform>16</android.platform>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>android</artifactId>
+            <scope>provided</scope>
+            <version>${android.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.roboguice</groupId>
+            <artifactId>roboguice</artifactId>
+            <version>2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.holoeverywhere</groupId>
+            <artifactId>library</artifactId>
+            <version>1.4.2</version>
+            <type>apklib</type>
+        </dependency>
+    </dependencies>
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+                <version>3.5.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <sdk>
+                        <platform>${android.platform}</platform>
+                    </sdk>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
