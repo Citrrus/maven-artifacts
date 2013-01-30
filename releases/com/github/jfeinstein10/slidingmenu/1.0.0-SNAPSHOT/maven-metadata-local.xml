@@ -7,17 +7,17 @@
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
-    <lastUpdated>20130130052302</lastUpdated>
+    <lastUpdated>20130130193003</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>apklib</extension>
         <value>1.0.0-SNAPSHOT</value>
-        <updated>20130130052302</updated>
+        <updated>20130130193003</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
         <value>1.0.0-SNAPSHOT</value>
-        <updated>20130130052302</updated>
+        <updated>20130130193003</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

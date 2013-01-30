@@ -2,10 +2,5 @@
 <metadata>
   <groupId>com.github.jfeinstein10</groupId>
   <artifactId>slidingmenu-parent</artifactId>
-  <versioning>
-    <versions>
-      <version>1.0.0-SNAPSHOT</version>
-    </versions>
-    <lastUpdated>20130130193000</lastUpdated>
-  </versioning>
+  <version>1.0.0-SNAPSHOT</version>
 </metadata>
