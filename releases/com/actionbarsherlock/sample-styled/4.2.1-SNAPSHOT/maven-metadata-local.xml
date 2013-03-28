@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.actionbarsherlock</groupId>
+  <artifactId>sample-styled</artifactId>
+  <version>4.2.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20130328023356</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>4.2.1-SNAPSHOT</value>
+        <updated>20130328023356</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>apk</extension>
+        <value>4.2.1-SNAPSHOT</value>
+        <updated>20130328023356</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>4.2.1-SNAPSHOT</value>
+        <updated>20130328023356</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
