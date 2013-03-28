@@ -2,10 +2,5 @@
 <metadata>
   <groupId>com.actionbarsherlock</groupId>
   <artifactId>actionbarsherlock</artifactId>
-  <versioning>
-    <versions>
-      <version>4.2.1-SNAPSHOT</version>
-    </versions>
-    <lastUpdated>20130328025419</lastUpdated>
-  </versioning>
+  <version>4.2.1s-SNAPSHOT</version>
 </metadata>
